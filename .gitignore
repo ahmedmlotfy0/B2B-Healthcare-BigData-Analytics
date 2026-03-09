@@ -201,6 +201,20 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Ignore data files
+*.csv
+*.zip
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# Custom Data Files (Do not upload large datasets)
+*.csv
+*.zip
+*.xlsx
+*.parquet
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
